@@ -1,0 +1,7 @@
+<!doctype html> inicio do programa
+<head> cabeçalho
+<title> titulo que vai na aba
+<body> corpo do site
+<h1> é o maior tamanho da letra e em negrito 
+<h2> tamanho menor e em negrito
+ 
