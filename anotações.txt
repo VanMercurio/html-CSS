@@ -4,4 +4,41 @@
 <body> corpo do site
 <h1> é o maior tamanho da letra e em negrito 
 <h2> tamanho menor e em negrito
+<strong> negrito
+<em> italico
+<mark> marcador de texto
+<small> deixa o texto menor, tipo, letras menores do contrato
+<del> deixa a palavra riscada no meio
+<ins> sublinha
+<sub> deixa o numero pequeno do "ao quadrado"
+<sup> deixa o numero ou letra menor, tipo do H2O
+Exx 002 codigo fonte
+<code> deixa as palavras monoespaçadas, no entento, mas indexar como formatação de codigo é necessário envelopar (ctrl + shift + p ) na tag <pre>
+<q> citações simples, adiciona ""
+<blockquote> para citações d elivro, podemos colocar até o linlk, ver exercicio 002
+<abbr> para mostrar o significado de uma abreviação qdo passa o mouse em cima
+<bdo> inverte a escrita da palavra
+
+Ex 002 > Lista OL e UL
+
+<ol> permite listas numeradas usar <li> para listar e numerar
+<ul> permite listar com pontos, bolinhas ou quadradinhos
+
+Ex 002 > Listas Mistas e de definição
+
+ver o exx listadedefinicao.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
