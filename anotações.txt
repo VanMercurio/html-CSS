@@ -28,6 +28,12 @@ Ex 002 > Listas Mistas e de definição
 
 ver o exx listadedefinicao.html
 
+Exercirio criando links
+envelopar o que vc quer criar o link e colocar <a href="" target="_blank" rel="external" >>>  abre em uma nova aba
+
+./ volta para a pagina na mm pasta
+../ volta para uma pagina na pasta anterior
+
 
 
 
