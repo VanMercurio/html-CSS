@@ -35,6 +35,15 @@ envelopar o que vc quer criar o link e colocar <a href="" target="_blank" rel="e
 ../ volta para uma pagina na pasta anterior
 
 
+Imagem dinamica
+primeiro souce media type carregar a imagem menor
+segundo carregar source media type a imagem media
+terceiro imag src carregar a imagem normal, no caso, a grande
+incluir :  <picture> 	
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
 
 
 
