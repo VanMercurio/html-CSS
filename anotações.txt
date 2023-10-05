@@ -45,7 +45,19 @@ incluir :  <picture>
         <img src="imagens/foto-g.png" alt="imagem flexivel">
     </picture>
 
+COLOCANDO AUDIO
 
+<audio src="colocar o audio baixado.mp3" controls autoplay></audio>
+OUTRA FORMA
+<audio preload="metadata" autoplay controls loop> ( METADATA MOSTRA AS INFORMAÇÕES DO AUDIO )
+        <source src="colocar o audio baixado.mp3" type="audio/mpeg"> <!--tenta carregar primeiro ess aopção e se não conseguir tenta nas sequencias das opções-->
+        <source src="colocar o audio baixado.ogg" type="audio/ogg">
+        <source src="colocar o audio baixado.wav" type="audio/wav">
+    </audio>
+
+COLOCANDO VIDEOS NO SITE
+
+Para fazer alteração de video, usar o hand brake
 
 
 

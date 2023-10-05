@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="aparenciaform1.css">
+    <title>Bláblaluno</title>
+    <style>
+           
+        body{
+            background-color: white;
+        }
+        main{
+            width: 80vw;
+            margin: auto;
+        }         
+    </style>
+</head>
+<body>  
+    <div class="BláBlaluno"><span>BláBlaluno</span>
+        <img src="https://static.thenounproject.com/png/293801-200.png" height="30px" alt="Carro de carona">
+    </div>
+    <div>
+               
+        <h2 class="subtitulo">Bem vindo ao BláBlaluno!</h2>
+        <h3 class="subsub"> Realize seu cadastro</h3>
+  </div> 
+        <div class="box">
+       <form action="formulario.php" autocomplete="off"><!--permite desligar o auto preenchimento-->
+       
+        <br>
+            <div class="inputbox">
+                <input type="text" name="nome" id="nome" class="inputuser">
+                <label for="nome"><b>Nome</b></label></div><br>
+                 <!--label relaciona com input-->                
+            <div class="inputbox">
+                <input type="text" name="sobrenome" id="sobrenome" class="inputuser">
+                <label for="sobrenome"><b>Sobrenome</b></label></div><br>
+                
+            <div class="inputbox">
+                <input type="email" name="email" id="email" class="inputuser">
+                <label for="email"><b>Email</b></label></div><br>
+                
+            <div class="inputbox">
+                <input type="tel" name="telefone" id="telefone" class="inputuser">
+                <label for="telefone"><b>Telefone</b></label></div> <br>
+                 
+            <p><b>Sexo</b></p>
+                <input type="radio" name="genero" id="feminino" value="feminino">
+                <label for="feminino"><b>Feminino</b></label><br>
+                <input type="radio" name="genero" id="masculino" value="masculino">
+                <label for="masculino"><b>Masculino</b></label><br>
+                <input type="radio" name="genero" id="outros" value="outros">
+                <label for="outros"><b>Outros</b></label><br><br>
+            <div class="inputBox"> 
+                <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                <input type="date" name="data_nascimento" id="data_nascimento">
+            </div><br>
+            <div class="inputbox">
+                <input type="text" name="cidade" id="cidade" class="inputuser">
+                <label for="cidade"><b>Cidade</b></label></div><br>
+                
+            <div class="inputbox">
+                <input type="text" name="estado" id="estado" class="inputuser">
+                <label for="cidade"><b>Estado</b></label></div><br>
+                
+            <div class="inputbox">
+                <input type="text" name="endereço" id="endereço" class="inputuser">
+                <label for="endereço"><b>Endereço</b></label></div><br><br>
+                
+            <div class="enviar">  
+            <p><button><b>Enviar</b></button> </p>
+            </div>
+    
+    </form>
+</div>  
+</body>
+</html>

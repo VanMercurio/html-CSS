@@ -20,5 +20,14 @@
     <ol>
         <li><a href="Vanessa M. J. Mercurio.pdf">Meu CV</a></li><!--se não colocar dowload ele abre o arquivo na mm pagina-->
     </ol>
+    <h1> Reproduzindo audio na página!</h1>
+    <p>Vamos aprender a reproduxir audio no site!</p>
+    <audio src="midia/Good Morning! - Reed Mathis.mp3" controls ></audio><BR><!-- a opção controls aparcere o controle de play, o audio precisa estar em MP3, ogg ou wav-->
+    <audio preload="metadata" autoplay controls loop> <!--AUTOPLAY PERMITE TOCAR O AUDIO SOZINHO-->
+        <source src="midia/First Call - Kevin MacLeod.mp3" type="audio/mpeg"> <!--tenta carregar primeiro ess aopção e se não conseguir tenta nas sequencias das opções-->
+        <source src="midia/First Call - Kevin MacLeod.ogg" type="audio/ogg">
+        <source src="midia/First Call - Kevin MacLeod.wav" type="audio/wav">
+    </audio>
+
 </body>
 </html>

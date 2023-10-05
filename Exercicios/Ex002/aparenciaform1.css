@@ -1,0 +1,34 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to bottom, rgb(245, 102, 0), #ffffff);
+    background-repeat: no-repeat;
+    
+      
+}
+.box{
+    
+    margin:42px;
+}
+.input{
+   background: none;
+   border: none;
+   border-bottom: none;
+   outline: none;
+   color: red;
+   font-size: 10px;
+   width: 100%;   
+}
+.BláBlaluno{
+    color: #ffffff;
+    
+
+}
+.subtitulo{
+    color: #ffffff;
+    text-align: center;
+}
+.subsub{
+    color: #ffffff;
+    text-align: center;
+    
+}
