@@ -12,12 +12,23 @@
 <ins> sublinha
 <sub> deixa o numero pequeno do "ao quadrado"
 <sup> deixa o numero ou letra menor, tipo do H2O
+
 Exx 002 codigo fonte
 <code> deixa as palavras monoespaçadas, no entento, mas indexar como formatação de codigo é necessário envelopar (ctrl + shift + p ) na tag <pre>
 <q> citações simples, adiciona ""
 <blockquote> para citações d elivro, podemos colocar até o linlk, ver exercicio 002
 <abbr> para mostrar o significado de uma abreviação qdo passa o mouse em cima
 <bdo> inverte a escrita da palavra
+padding > é o espaço da borda para os elementos( alarga os inputs)
+outline é a linha ao redor dos inputs
+button: hover > eu altero cor de fundo do botão,q do o mouse passa por cima ( usar backgroud color e cursor)
+width : largura na horizontal
+height : largura na vertical
+padding-left : preenchimento à esquerda 
+<span> permite que o título escrito seja um link
+list-style-type: none --- tira o pontinho da lista criada
+justify-content : center e align-itens: center, alinha tudo junto
+
 
 Ex 002 > Lista OL e UL
 
@@ -36,6 +47,7 @@ envelopar o que vc quer criar o link e colocar <a href="" target="_blank" rel="e
 
 
 Imagem dinamica
+
 primeiro souce media type carregar a imagem menor
 segundo carregar source media type a imagem media
 terceiro imag src carregar a imagem normal, no caso, a grande
@@ -59,9 +71,19 @@ COLOCANDO VIDEOS NO SITE
 
 Para fazer alteração de video, usar o hand brake
 
+>>>>>FLEXBOX<<<<<<
 
+display : flex > posiciona as divs uma ao lado da outra, se tirar elas vão ficar uma embaixo da outra
+flex direction : 
+row > orizontal
+column /. uma debaixo da outra
+Na div eu posso usar a formatação style=order : 0 ou 1 ou 2, pra posicionar as divs onde eu quiser
+flex-wrap : wrap vai respeitar o tamanho do width 
+justify-content alinha juntamente com o align itens ( center ), no caso de space around alinha as colunas igualmente lado a lado
 
+PEGANDO FONTE DO GOOGLE FONTS
 
+-- abrir google fonte e selecionar a fonte desejada, na lateral do site vão aparacer as fontes adicionadas, no final ´e´ra um link que deverá ser copiado e add no head e copiar tb o tipo de fonte do CSS e addionar no estilo para font family 
 
 
 
